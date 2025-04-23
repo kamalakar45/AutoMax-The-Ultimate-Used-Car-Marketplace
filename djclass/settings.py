@@ -147,8 +147,19 @@ MEDIA_URL = '/media/'
 # django crispy forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+# Email settings 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp-relay.brevo.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = env('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')   
+
+DEFAULT_FROM_EMAIL = "kamalsai611@gmail.com"  # Replace with Brevo-verified email
+SERVER_EMAIL = "kamalsai611@gmail.com"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
