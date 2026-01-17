@@ -153,6 +153,6 @@ You may add an MIT License or any other open-source license if required.
 
 ## 👤 Author
 
-Kamalakar Buddala
-B.Tech – Cybersecurity
+Kamalakar Buddala                                                                                                                                                                                             
+B.Tech – Cybersecurity                                                                                                                                                                                        
 Django & Full Stack Developer
