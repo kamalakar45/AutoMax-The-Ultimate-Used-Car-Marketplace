@@ -63,14 +63,13 @@ djclass/
 ├── media/
 ├── static/
 └── venv/
----
 
 
 ---
 
 ### 2️⃣ Tech Stack (NEW, separate section)
 
-```md
+```
 ## 🛠 Tech Stack
 
 - **Backend:** Python, Django
