@@ -30,9 +30,9 @@ The project follows Django’s **MVT (Model–View–Template)** architecture an
 ## 🏗 Project Structure
 
 djclass/
-
+|
 ├── manage.py
-
+|
 ├── db.sqlite3
 
 │
