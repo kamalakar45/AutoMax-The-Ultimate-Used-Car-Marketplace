@@ -1,58 +1,67 @@
-DJClass – Django Classifieds Web Application
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Django](https://img.shields.io/badge/Django-4.x-darkgreen?logo=django)
+![Database](https://img.shields.io/badge/Database-SQLite-blue)
+![Status](https://img.shields.io/badge/Project-Active-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/djclass)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/djclass)
 
-DJClass is a Django-based classifieds web application that allows users to register, log in, and post classified listings with details such as category, brand, color, description, images, and more. The project follows Django’s standard MVT (Model–View–Template) architecture and uses SQLite as the default database.
+# DJClass – Django Classifieds Web Application
 
-🚀 Features
+DJClass is a **Django-based classifieds web application** that allows users to register, log in, and post classified listings with detailed information such as category, brand, color, description, and images.  
+The project follows Django’s **MVT (Model–View–Template)** architecture and is designed for learning and academic purposes.
 
-User authentication (registration, login, logout)
+---
 
-User profile management
+## 🚀 Features
 
-Create, update, and delete classified listings
+- User authentication (Register, Login, Logout)
+- User profile management
+- Create, update, and delete classified listings
+- Categories, brands, colors, and detailed descriptions
+- Image upload and media handling
+- Like / favorite listings
+- Search and filter functionality
+- Django admin panel
+- Responsive UI using Bootstrap
 
-Listing categories, brands, colors, and descriptions
+---
 
-Image upload and media handling
-
-Like / favorite listings
-
-Filtering and searching of listings
-
-Django admin panel for management
-
-Bootstrap-based responsive UI
+## 🏗 Project Structure
 
 djclass/
 │
 ├── manage.py
 ├── db.sqlite3
 │
-├── djclass/                # Project configuration
-│   ├── settings.py
-│   ├── urls.py
-│   ├── asgi.py
-│   ├── wsgi.py
+├── djclass/
+│ ├── settings.py
+│ ├── urls.py
+│ ├── asgi.py
+│ ├── wsgi.py
 │
-├── main/                   # Core classifieds app
-│   ├── models.py           # Listing, category, likes models
-│   ├── views.py            # Business logic
-│   ├── urls.py             # App routing
-│   ├── forms.py            # Django forms
-│   ├── filters.py          # Listing filters
-│   ├── utils.py            # Helper utilities
-│   ├── consts.py            # Constants
-│   ├── templates/          # HTML templates
-│   ├── static/             # CSS, JS, images
-│   └── migrations/
+├── main/
+│ ├── models.py
+│ ├── views.py
+│ ├── urls.py
+│ ├── forms.py
+│ ├── filters.py
+│ ├── utils.py
+│ ├── consts.py
+│ ├── templates/
+│ ├── static/
+│ └── migrations/
 │
-├── users/                  # User management app
-│   ├── models.py           # Custom user / profile models
-│   ├── views.py            # Auth & profile views
-│   ├── forms.py            # User forms
-│   ├── signals.py          # Django signals
-│   ├── urls.py             # User routing
-│   └── templates/
+├── users/
+│ ├── models.py
+│ ├── views.py
+│ ├── urls.py
+│ ├── forms.py
+│ ├── signals.py
+│ └── templates/
 │
-├── media/                  # Uploaded images
-├── static/                 # Global static files
-└── venv/                   # Virtual environment (should be ignored)
+├── media/
+├── static/
+└── venv/
+
+
