@@ -111,18 +111,48 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-### 4️⃣ Media & Static Files
-
-```md
 ## 📸 Media & Static Files
 
 - Uploaded images are stored in the `media/` directory
 - Static assets are managed using Django static files
 - Bootstrap is used for responsive UI design
-```
+  
 
 ## 🗄 Database
 
 - Default database: **SQLite (`db.sqlite3`)**
 - Database configuration can be changed in `settings.py`
 - Supports PostgreSQL / MySQL for production
+
+## 🧪 Testing
+```bash
+python manage.py test
+```
+
+## 🚧 Future Enhancements
+
+- Pagination for listings
+- REST API integration
+- Email verification
+- Advanced search & sorting
+- Deployment configuration (Docker / AWS)
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a pull request
+
+## 📜 License
+
+This project is for educational and learning purposes.
+You may add an MIT License or any other open-source license if required.
+
+## 👤 Author
+
+Kamalakar Buddala
+B.Tech – Cybersecurity
+Django & Full Stack Developer
