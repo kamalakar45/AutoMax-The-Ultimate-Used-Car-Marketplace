@@ -3,13 +3,14 @@
 ![Database](https://img.shields.io/badge/Database-SQLite-blue)
 ![Status](https://img.shields.io/badge/Project-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/djclass)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/djclass)
 
 # DJClass – Django Classifieds Web Application
 
-DJClass is a **Django-based classifieds web application** that allows users to register, log in, and post classified listings with detailed information such as category, brand, color, description, and images.  
-The project follows Django’s **MVT (Model–View–Template)** architecture and is designed for learning and academic purposes.
+AutoMax is a **web-based car marketplace application** built using **Django**, designed to facilitate the **buying and selling of cars online**. The platform enables users to register, authenticate securely, and list cars for sale with detailed specifications such as brand, model, price, color, condition, and images.
+
+The application provides an intuitive interface for buyers to browse, search, and filter available car listings, while sellers can easily manage their posted vehicles. AutoMax follows Django’s **Model–View–Template (MVT)** architecture and implements role-based functionality, media handling, and database-driven operations to deliver a scalable and user-friendly marketplace experience.
+
+This project is developed as an **academic and portfolio project**, demonstrating full-stack web development skills, database design, authentication mechanisms, and practical use of Django for real-world applications.
 
 ---
 
@@ -110,3 +111,18 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+### 4️⃣ Media & Static Files
+
+```md
+## 📸 Media & Static Files
+
+- Uploaded images are stored in the `media/` directory
+- Static assets are managed using Django static files
+- Bootstrap is used for responsive UI design
+```
+
+## 🗄 Database
+
+- Default database: **SQLite (`db.sqlite3`)**
+- Database configuration can be changed in `settings.py`
+- Supports PostgreSQL / MySQL for production
