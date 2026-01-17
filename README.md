@@ -93,3 +93,20 @@ venv\Scripts\activate      # Windows
 ```bash
 pip install django
 ```
+
+### 4️⃣ Apply Migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### 5️⃣ Create Superuser
+```bash
+python manage.py createsuperuser
+```
+
+### 6️⃣ Run Development Server
+```bash
+python manage.py runserver
+```
+
