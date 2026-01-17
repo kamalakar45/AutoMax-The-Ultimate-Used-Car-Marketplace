@@ -29,51 +29,37 @@ The project follows Django’s **MVT (Model–View–Template)** architecture an
 
 ## 🏗 Project Structure
 
+```text
 djclass/
-
 ├── manage.py
-|
 ├── db.sqlite3
-
 │
 ├── djclass/
-│ ├── settings.py
-│ ├── urls.py
-│ ├── asgi.py
-│ ├── wsgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
 │
 ├── main/
-│ ├── models.py
-│ ├── views.py
-│ ├── urls.py
-│ ├── forms.py
-│ ├── filters.py
-│ ├── utils.py
-│ ├── consts.py
-│ ├── templates/
-│ ├── static/
-│ └── migrations/
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── forms.py
+│   ├── filters.py
+│   ├── utils.py
+│   ├── consts.py
+│   ├── templates/
+│   ├── static/
+│   └── migrations/
 │
 ├── users/
-│ ├── models.py
-│ ├── views.py
-│ ├── urls.py
-│ ├── forms.py
-│ ├── signals.py
-│ └── templates/
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── forms.py
+│   ├── signals.py
+│   └── templates/
 │
 ├── media/
 ├── static/
 └── venv/
-
-
-.
-├── main.go              # Complete ZK-SNARK implementation
-├── cmd/sim/             # Network simulation runner (animated demo)
-├── simulation/          # Client-server simulation helpers
-├── lib/                 # Library metadata
-├── utils/               # Fixed-point arithmetic & data loaders
-├── data/                # Datasets and model parameters
-├── scripts/             # Python ML training scripts
-├── backup/              # Backup files (not in VCS)
-└── documentation/       # Internal notes (not in VCS)
