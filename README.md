@@ -21,3 +21,38 @@ Filtering and searching of listings
 Django admin panel for management
 
 Bootstrap-based responsive UI
+
+djclass/
+│
+├── manage.py
+├── db.sqlite3
+│
+├── djclass/                # Project configuration
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   ├── wsgi.py
+│
+├── main/                   # Core classifieds app
+│   ├── models.py           # Listing, category, likes models
+│   ├── views.py            # Business logic
+│   ├── urls.py             # App routing
+│   ├── forms.py            # Django forms
+│   ├── filters.py          # Listing filters
+│   ├── utils.py            # Helper utilities
+│   ├── consts.py            # Constants
+│   ├── templates/          # HTML templates
+│   ├── static/             # CSS, JS, images
+│   └── migrations/
+│
+├── users/                  # User management app
+│   ├── models.py           # Custom user / profile models
+│   ├── views.py            # Auth & profile views
+│   ├── forms.py            # User forms
+│   ├── signals.py          # Django signals
+│   ├── urls.py             # User routing
+│   └── templates/
+│
+├── media/                  # Uploaded images
+├── static/                 # Global static files
+└── venv/                   # Virtual environment (should be ignored)
