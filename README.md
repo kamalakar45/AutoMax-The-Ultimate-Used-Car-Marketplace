@@ -63,11 +63,14 @@ djclass/
 ├── media/
 ├── static/
 └── venv/
-
+---
 
 
 ---
 
+### 2️⃣ Tech Stack (NEW, separate section)
+
+```md
 ## 🛠 Tech Stack
 
 - **Backend:** Python, Django
@@ -75,13 +78,3 @@ djclass/
 - **Database:** SQLite3
 - **Authentication:** Django Authentication System
 - **Version Control:** Git & GitHub
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/djclass.git
-cd djclass
-
