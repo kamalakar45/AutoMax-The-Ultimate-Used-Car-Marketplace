@@ -80,3 +80,16 @@ djclass/
 ```bash
 git clone https://github.com/your-username/djclass.git
 cd djclass
+```
+
+### 2️⃣ Create and Activate Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux / macOS
+venv\Scripts\activate      # Windows
+```
+
+### 3️⃣ Install Dependencies
+```bash
+pip install django
+```
