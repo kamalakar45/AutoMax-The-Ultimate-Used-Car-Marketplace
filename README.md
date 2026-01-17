@@ -65,3 +65,15 @@ djclass/
 ├── media/
 ├── static/
 └── venv/
+
+
+.
+├── main.go              # Complete ZK-SNARK implementation
+├── cmd/sim/             # Network simulation runner (animated demo)
+├── simulation/          # Client-server simulation helpers
+├── lib/                 # Library metadata
+├── utils/               # Fixed-point arithmetic & data loaders
+├── data/                # Datasets and model parameters
+├── scripts/             # Python ML training scripts
+├── backup/              # Backup files (not in VCS)
+└── documentation/       # Internal notes (not in VCS)
