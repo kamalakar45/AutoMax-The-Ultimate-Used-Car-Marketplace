@@ -29,12 +29,7 @@ The project follows Django’s **MVT (Model–View–Template)** architecture an
 
 ## 🏗 Project Structure
 
-djclass/
-├── manage.py
-├── db.sqlite3
-│
-├── djclass/
-│ ├── settings.py
+djclass/                                                                                                                                                                                                       ├── manage.py                                                                                                                                                                                                  ├── db.sqlite3                                                                                                                                                                                                 │                                                                                                                                                                                                              ├── djclass/                                                                                                                                                                                                   │ ├── settings.py                                                                                                                                                                                               
 │ ├── urls.py
 │ ├── asgi.py
 │ ├── wsgi.py
